@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+.clickme {
+    font-family: 'Fascinate', cursive;
+    text-align: center;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    height: 600px;
+    width: 600px;
+    margin-left: 450px;
+}
+
+#t1 {
+    background-color: rgb(255, 216, 41);
+    height: 100%;
+    width: 100%;
+}
+
+#t2 {
+    background-color: rgb(50, 57, 255);
+    height: 100%;
+    width: 100%;
+}
+
+#t3 {
+    background-color: rgb(101, 255, 78);
+    height: 100%;
+    width: 100%;
+}
+
+#t4 {
+    background-color: rgb(255, 82, 34);
+    height: 100%;
+    width: 100%;
+}
+
+#t5 {
+    background-color: rgb(255, 91, 203);
+    height: 100%;
+    width: 100%;
+}
+
+#t6 {
+    background-color: rgb(255, 56, 56);
+    height: 100%;
+    width: 100%;
+}
+
+#t7 {
+    background-color: rgb(51, 255, 255);
+    height: 100%;
+    width: 100%;
+}
+
+#t8 {
+    background-color: rgb(216, 59, 255);
+    height: 100%;
+    width: 100%;
+}
+
+#t9 {
+    background-color: rgb(212, 255, 83);
+    height: 100%;
+    width: 100%;
+}

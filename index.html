@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Colorful Divs</title>
+</head>
+
+<body>
+    <h1 class="clickme">Click on us!!!</h1>
+    <div class="box">
+        <div class="template" id="t1" onclick="select(this)"></div>
+        <div class="template" id="t2" onclick="select(this)"></div>
+        <div class="template" id="t3" onclick="select(this)"></div>
+        <div class="template" id="t4" onclick="select(this)"></div>
+        <div class="template" id="t5" onclick="select(this)"></div>
+        <div class="template" id="t6" onclick="select(this)"></div>
+        <div class="template" id="t7" onclick="select(this)"></div>
+        <div class="template" id="t8" onclick="select(this)"></div>
+        <div class="template" id="t9" onclick="select(this)"></div>
+    </div>
+
+    <script>
+        function select(sender) {
+            sender.style = "background-color: " + "#" + (Math.random().toString(17) + "000000").substring(2, 8).toUpperCase();
+        }
+    </script>
+</body>
+
+</html>
